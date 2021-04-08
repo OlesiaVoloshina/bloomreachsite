@@ -1,0 +1,247 @@
+/content/documents/gogreen/content:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 207a0c36-42c7-4239-91f8-0161f4b3b3e4
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 419dbb9c-3250-4c77-8fe8-ec76aebf5752
+  hippotranslation:locale: en
+  /sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 64ab4648-0c20-40d2-9f18-d7a394f0334b
+    hippo:name: Sample document
+    /sample-document:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 606ce89a-2c4d-4144-a79d-c4c2388c5a89
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Lorem
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
+      hippotranslation:id: 01b575a1-951e-466b-949a-28e6ff4d9baa
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /another-sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9caea793-42b1-4f3e-a8e5-d58f810ce2ef
+    hippo:name: Another sample document
+    /another-sample-document:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7760cdca-92dd-4407-881e-278f2fe9cce3
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Another Lorem
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
+      hippotranslation:id: 29b9c143-2fde-42b9-98c7-795e36a94fe6
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6b33935f-fb65-4ec6-a539-0e4f37939cec
+    hippo:name: Quick Facts
+    hippo:versionHistory: 586f7759-2c9c-4bd3-a036-401a8d0acece
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 021bdd4d-9e59-478a-b0f4-74387c7cae32
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:49:29.309+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:49:29.309+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e185f45a-71b9-4851-b964-a511ff0954b9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ba35fe64-e220-440d-b9e2-cfbbfb295a9e
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:49:29.309+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:49:51.306+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e185f45a-71b9-4851-b964-a511ff0954b9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1091875f-6de4-4234-8009-542061ed5ecd
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:49:29.309+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:49:51.306+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T15:49:53.952+03:00
+      hippotranslation:id: e185f45a-71b9-4851-b964-a511ff0954b9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: e978164f-53d6-439b-aed0-2815b6706b95
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: 6653e59e-a610-4052-b723-95622cff5578
+    /terms--conditions[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d4cce862-0d66-48b5-b129-d00f63903d73
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:50:02.338+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:50:02.338+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 121450db-4e21-4f0b-9393-e0015c3b37e0
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: a21ee4b8-4f36-43d1-be74-36c20e5a98cc
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:50:02.338+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:50:25.038+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 121450db-4e21-4f0b-9393-e0015c3b37e0
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ebd4ba9d-de3f-4bfe-8a87-d2d83ebec183
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:50:02.338+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:50:25.038+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T15:50:27.515+03:00
+      hippotranslation:id: 121450db-4e21-4f0b-9393-e0015c3b37e0
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>

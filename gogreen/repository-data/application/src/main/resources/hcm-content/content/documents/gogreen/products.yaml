@@ -1,0 +1,519 @@
+/content/documents/gogreen/products:
+  .meta:order-before: newsfacets
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 4d4d3783-fc48-4796-8f02-4c5e7d7443e9
+  hippostd:foldertype: [new-product-document, new-product-folder]
+  hippotranslation:id: b67d36f2-2572-409c-908f-ff7d5f7ba0d1
+  hippotranslation:locale: en
+  /aluminium-bottle:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 240f6ad2-4dd4-4f42-8784-79fc8d234303
+    hippo:name: Aluminium Bottle
+    hippo:versionHistory: 611c3cc4-f9e7-48e5-99b7-0eeba5f667e5
+    /aluminium-bottle[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f1ca17de-7513-4d96-a29f-f2eefa066888
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 3.55
+      gogreen:title: Green Bags
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:36:02.240+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:51:00.862+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8edf04a6-3006-460a-9eb7-0eb1c49aa729
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /aluminium-bottle[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4f4a1158-e17a-4d9b-925c-e1b208690a2f
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 3.55
+      gogreen:title: Green Bags
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:36:02.240+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:55:03.624+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8edf04a6-3006-460a-9eb7-0eb1c49aa729
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /aluminium-bottle[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 18641a4a-33c1-43a4-86ad-dc0052606184
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 3.55
+      gogreen:title: Green Bags
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:36:02.240+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:55:03.624+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:55:09.503+03:00
+      hippotranslation:id: 8edf04a6-3006-460a-9eb7-0eb1c49aa729
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /solar-light:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2567af2f-d62d-40b2-b43b-add6cd9610e4
+    hippo:name: Solar Light
+    hippo:versionHistory: d7ba894f-ae0d-4815-b8e5-405eef227fc5
+    /solar-light[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a209c436-8fd1-440a-8e7f-e1d296b8613d
+      gogreen:introduction: Solar Centurian - Outdoor security light
+      gogreen:price: 25.99
+      gogreen:title: Solar Light
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:37:45.664+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:55:38.854+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8dfbc10b-f6ad-4f71-a2c0-71f4bb738332
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Light up your night with a solar powered, motion detected
+          outdoor security light!</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3733cfb4-3353-48b9-8290-35c2fdd51a22
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-light[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d089713c-f956-4f0c-9b62-d1501b8a48cc
+      gogreen:introduction: Solar Centurian - Outdoor security light
+      gogreen:price: 25.99
+      gogreen:title: Solar Light
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:37:45.664+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:35:42.602+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8dfbc10b-f6ad-4f71-a2c0-71f4bb738332
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Light up your night with a solar powered, motion detected
+          outdoor security light!</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3733cfb4-3353-48b9-8290-35c2fdd51a22
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-light[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: efb40785-57f0-45e7-a350-1863ed10d32f
+      gogreen:introduction: Solar Centurian - Outdoor security light
+      gogreen:price: 25.99
+      gogreen:title: Solar Light
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:37:45.664+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:35:42.602+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:35:45.077+03:00
+      hippotranslation:id: 8dfbc10b-f6ad-4f71-a2c0-71f4bb738332
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Light up your night with a solar powered, motion detected
+          outdoor security light!</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3733cfb4-3353-48b9-8290-35c2fdd51a22
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /laptop-case:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 67409a31-b3c1-46ee-8739-0e35c100e1c0
+    hippo:name: Laptop Case
+    hippo:versionHistory: f0e1a7cd-cd7c-47b7-b3f8-34ba01e2390e
+    /laptop-case[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 04f91be3-f804-46fe-bdc9-96fbf8c91cec
+      gogreen:introduction: Laptop sleeves - neogreene
+      gogreen:price: 45.0
+      gogreen:title: Laptop Case
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:39:50.228+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:35:47.946+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ad5f14e-3b14-48c4-a91e-2a744336317f
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Love the squishy feel of neoprene, but hate toxins like
+          VOCs? The green revolution</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 26cc2fb6-b858-46c0-9d8b-7d3a23f037a4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /laptop-case[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d7d8aa17-59d9-4a9c-bded-0e9b75d2d682
+      gogreen:introduction: Laptop sleeves - neogreene
+      gogreen:price: 45.0
+      gogreen:title: Laptop Case
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:39:50.228+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:35:56.398+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ad5f14e-3b14-48c4-a91e-2a744336317f
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Love the squishy feel of neoprene, but hate toxins like
+          VOCs? The green revolution</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 26cc2fb6-b858-46c0-9d8b-7d3a23f037a4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /laptop-case[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3eb3d919-73f4-492c-94af-7ae65a957b9b
+      gogreen:introduction: Laptop sleeves - neogreene
+      gogreen:price: 45.0
+      gogreen:title: Laptop Case
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T16:39:50.228+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:35:56.398+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:35:58.677+03:00
+      hippotranslation:id: 3ad5f14e-3b14-48c4-a91e-2a744336317f
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Love the squishy feel of neoprene, but hate toxins like
+          VOCs? The green revolution</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 26cc2fb6-b858-46c0-9d8b-7d3a23f037a4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /tent:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 396fe8ac-2eea-4153-8e1a-19165f89d377
+    hippo:name: Tent
+    hippo:versionHistory: 37efb60d-cf74-4497-b900-7a600c68a0aa
+    /tent[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a83b1727-da9b-4281-a8a5-e508d3a782f1
+      gogreen:introduction: MEC LODGE 4+4 TENT
+      gogreen:price: 125.7
+      gogreen:title: Tent
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:55:59.005+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:19.564+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9e1c501-0ddc-42bf-9569-9500136c77c2
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Glamping, anyone? This large tent has 2 bedrooms that
+          each sleep 2 people.&nbsp;</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6919eece-2b5e-40b3-a883-f586e27f551c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /tent[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bdcfb5ef-087d-4737-beb0-2520687e3f3e
+      gogreen:introduction: MEC LODGE 4+4 TENT
+      gogreen:price: 125.7
+      gogreen:title: Tent
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:55:59.005+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:25.710+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9e1c501-0ddc-42bf-9569-9500136c77c2
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Glamping, anyone? This large tent has 2 bedrooms that
+          each sleep 2 people.&nbsp;</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6919eece-2b5e-40b3-a883-f586e27f551c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /tent[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c7e6b81b-ab99-48e4-be48-a1f416d29962
+      gogreen:introduction: MEC LODGE 4+4 TENT
+      gogreen:price: 125.7
+      gogreen:title: Tent
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:55:59.005+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:25.710+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:58:46.248+03:00
+      hippotranslation:id: e9e1c501-0ddc-42bf-9569-9500136c77c2
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Glamping, anyone? This large tent has 2 bedrooms that
+          each sleep 2 people.&nbsp;</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6919eece-2b5e-40b3-a883-f586e27f551c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /ipad-case:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 753cce93-a0b6-471d-98b8-1a1997510517
+    hippo:name: Ipad Case
+    hippo:versionHistory: d3cd4016-cbdf-4d3d-b0b3-ce28aac77c71
+    /ipad-case[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b75c1cef-0733-4bcf-bebe-9c765b04d580
+      gogreen:introduction: LIFEPROOF NÜÜD IPAD AIR CASE
+      gogreen:price: 125.7
+      gogreen:title: Ipad Case
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:56:53.410+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:29.474+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e7ccc883-fe33-4a7e-993f-ad805cc68596
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get full protection for your phone in any wet, dirty
+          or damp setting.The nuud case armours</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 413416ef-d288-45f6-9b7d-8d34a2affdfa
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /ipad-case[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 008c48fd-b90f-4b3c-a237-865f8febe1e6
+      gogreen:introduction: LIFEPROOF NÜÜD IPAD AIR CASE
+      gogreen:price: 125.7
+      gogreen:title: Ipad Case
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:56:53.410+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:35.756+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e7ccc883-fe33-4a7e-993f-ad805cc68596
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get full protection for your phone in any wet, dirty
+          or damp setting.The nuud case armours</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 413416ef-d288-45f6-9b7d-8d34a2affdfa
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /ipad-case[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7cae4b09-a845-4317-90fb-6fb7b1e935bd
+      gogreen:introduction: LIFEPROOF NÜÜD IPAD AIR CASE
+      gogreen:price: 125.7
+      gogreen:title: Ipad Case
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:56:53.410+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:35.756+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:58:49.156+03:00
+      hippotranslation:id: e7ccc883-fe33-4a7e-993f-ad805cc68596
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get full protection for your phone in any wet, dirty
+          or damp setting.The nuud case armours</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 413416ef-d288-45f6-9b7d-8d34a2affdfa
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /green-bags:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: e8b813ca-ff36-473d-9167-9efe3df0bdc0
+    hippo:name: Green Bags
+    hippo:versionHistory: 0fff5ca0-a0e6-4e51-898b-5ad57b62371d
+    /green-bags[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 601e1a0c-e5e4-473a-b5e1-e802bba44f6c
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 5.0
+      gogreen:title: Green Bags
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:57:44.042+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:38.541+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c3f71ece-d067-4822-a763-9f24a0b6a60e
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /green-bags[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3edbf220-eef8-45b7-a65b-dd40f83e1136
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 5.0
+      gogreen:title: Green Bags
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:57:44.042+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:43.337+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c3f71ece-d067-4822-a763-9f24a0b6a60e
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /green-bags[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 52d53538-9561-4d0a-88f8-9b1926d1f6bd
+      gogreen:introduction: GREEN REUSABLE MESH PRODUCE BAGS
+      gogreen:price: 5.0
+      gogreen:title: Green Bags
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T17:57:44.042+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T17:58:43.337+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T17:58:51.176+03:00
+      hippotranslation:id: c3f71ece-d067-4822-a763-9f24a0b6a60e
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Keep your produce away from plastic! Made from 100% recycled
+          mesh.</p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4bf336e2-bcdd-4e55-b392-e39e657dcf7e
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

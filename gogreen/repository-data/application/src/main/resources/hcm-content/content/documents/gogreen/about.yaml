@@ -1,0 +1,108 @@
+/content/documents/gogreen/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 693ac763-a90d-4143-a4ea-a20630a05c71
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 27f7b3b8-3865-44fe-93c8-22de25d3dde1
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 98862b2b-3cce-4b0b-a05e-568d449c76b0
+    hippo:name: About
+    hippo:versionHistory: 4a20b107-f4b5-4c0b-b375-f82ef90ad740
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b673871e-b24b-4186-88f2-16d4b28b3d9c
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 2021-04-07T15:07:00+03:00
+      gogreen:title: About Go Green
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:06:30.806+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:06:30.806+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4c9cb69b-75ed-407e-8c94-8b25fca33b24
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b7b7ffc7-f727-4599-a689-73701e5868fc
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 2021-04-07T15:07:00+03:00
+      gogreen:title: About Go Green
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:06:30.806+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:07:11.741+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4c9cb69b-75ed-407e-8c94-8b25fca33b24
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f05db53d-29b8-477a-a83e-7894670ed1c0
+      gogreen:introduction: This website is a demo website to showcase the features
+        of BloomReach Experience Manager.
+      gogreen:publicationdate: 2021-04-07T15:07:00+03:00
+      gogreen:title: About Go Green
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T15:06:30.806+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T15:07:11.741+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T15:07:13.989+03:00
+      hippotranslation:id: 4c9cb69b-75ed-407e-8c94-8b25fca33b24
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>BloomReach Experience Manager is the Content Management System for creating personalized experiences across all channels. brXM’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love brXM because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love brXM because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love brXM because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.bloomreach.com/">bloomreach.com</a></p>

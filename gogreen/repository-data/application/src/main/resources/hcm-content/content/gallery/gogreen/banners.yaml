@@ -1,0 +1,493 @@
+/content/gallery/gogreen/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-gogreen-imageset-folder]
+  hippostd:gallerytype: ['gogreen:imageset']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+    /banner-1.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.465+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.539+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.623+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.715+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.789+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-1.jpg/banner-1.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.872+03:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+    /banner-2.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.242+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.274+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.310+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.339+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.366+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:03:40.403+03:00
+        jcr:mimeType: image/jpeg
+  /testimg.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5c2fca42-36af-47e5-8aba-6869c7921d99
+    hippo:name: testImg.jpg
+    /testimg.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: testImg.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: testImg.jpg
+        hippogallery:height: 33
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 398
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 898
+        hippogallery:width: 1597
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/original/original.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 537
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 444
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 372
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 176
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 131
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/testimg.jpg/testimg.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:09:54.029+03:00
+        jcr:mimeType: image/jpeg
+  /office.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e9bdf0ce-2510-4062-988a-4885f1a01e6a
+    /office.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: office.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/original/original.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/office.jpg/office.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:56:46.959+03:00
+        jcr:mimeType: image/jpeg
+  /study.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 767e9375-f4a3-4f37-b653-dc5b22cb4cd5
+    /study.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: study.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: study.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/original/original.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/study.jpg/study.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:57:40.693+03:00
+        jcr:mimeType: image/jpeg
+  /thermostat2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 053eb811-3001-49dc-b63e-4bfccfdddb9d
+    /thermostat2.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: thermostat2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: thermostat2.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/small/small.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/original/original.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/large/large.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/banners/thermostat2.jpg/thermostat2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-04-08T14:58:39.353+03:00
+        jcr:mimeType: image/jpeg
